@@ -1,0 +1,36 @@
+
+
+
+
+@media screen and (max-width: 1169px) {
+
+.header-text h1  {
+ font-size: 4rem !important;
+line-height: 4rem  !important;} }
+
+
+
+
+
+@media screen and (max-width:991px  ){
+.title2{
+text-align: center !important;}
+.title2-p{
+text-align: center !important;}
+.h2-title {
+   text-align: center; 
+font-size: 1rem;   }
+.textcenter{
+text-align: center !important;}
+.m-left{
+margin-left: 8.5rem !important;   
+}
+.m-icon{
+   margin-left: 2rem !important;   
+   }
+.galleryimg1{
+margin-left: 60px;
+}   
+}
+
+
