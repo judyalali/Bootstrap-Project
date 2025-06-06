@@ -1,36 +1,143 @@
 
-
-
-
-@media screen and (max-width: 1169px) {
-
-.header-text h1  {
- font-size: 4rem !important;
-line-height: 4rem  !important;} }
-
-
-
-
-
-@media screen and (max-width:991px  ){
+/* ========== التابلت (768px - 991.98px) ========== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .header-text h1 {
+           font-size:4.2rem !important ;
+             line-height: 4.2rem !important;    }
+header  {
+              height: 90vh !important ;}
+.swimmingpool-img   {
+               width: 65% !important;
+                margin: auto !important;}
+.text-center h2 {
+              font-size:2.4rem !important ;}
+.text-center p {
+              font-size: 1.3rem !important;}
+html{
+             font-size: 14px !important;  }
+.header-text {
+                    margin-top: 3rem;}
+.swimmingpool-img-div{
+            text-align: center !important;}
 .title2{
-text-align: center !important;}
-.title2-p{
-text-align: center !important;}
-.h2-title {
-   text-align: center; 
-font-size: 1rem;   }
-.textcenter{
-text-align: center !important;}
-.m-left{
-margin-left: 8.5rem !important;   
+         text-align: center ;}
+.getDirection-btn {
+             text-align: center !important;}
+.six-img{
+       text-align: center !important; }
+ .wrong{
+         margin-left: 1.2rem;}
+.gallery-img{
+         width: 87% !important;
+       margin-left:3rem !important ;}
+.footer-div{
+            text-align: center !important;
+            margin-top:4rem !important ;}
+.footer-div h2 {
+font-size:1.5rem !important ;}
+.background2{
+   text-align: center !important;}
+.navbar-brand {
+        width: 30% !important;}
+.mapdiv {
+           padding: 3rem !important;}
+.reviewer-img {
+         width: 18% !important;
+           height: 18% !important;
+           border-radius: 50% !important;}
+.phone-icon{
+            font-size: 1.9rem !important ;}
+.row-div {
+             text-align: center;}
+.row-div .d-flex {
+            flex-direction: column !important;
+             align-items: center !important;
+              text-align: center;}
+.row-div .d-flex i {
+            margin-right: 0 !important;
+              margin-bottom: 10px;}
 }
-.m-icon{
-   margin-left: 2rem !important;   
-   }
-.galleryimg1{
-margin-left: 60px;
-}   
+/* ========== شاشات الهواتف (أقل من 768px) ========== */
+ @media (max-width: 767.98px) {
+.header-text{
+    height: 80%!important;}
+.header-text h1{
+     font-size: 3rem !important;
+      line-height: 3rem !important;}
+.header-text p{
+     font-size:1.4rem !important;
+       line-height: 1.5rem !important;
+           margin-bottom:2rem !important ;}
+.CheckAvailability-btn{
+       padding-inline: 2rem !important; 
+        padding-block: 0.5rem !important; 
+          margin-bottom:  2rem !important; }
+.navbar-brand{
+   width: 35% !important;}
+.swimmingpool-img {
+        width: 65% !important;}
+.swimmingpool-img-div {
+           text-align: center !important;}
+.title2 {
+        text-align: center;}
+.getDirection-btn {
+          text-align: center !important;}
+.btndiv{
+           margin-top: 20px !important; 
+           text-align: center !important;}
+.mapdiv{
+          padding: 3rem  !important;}
+.text-center h2 {
+         font-size: 2.4rem !important;}
+.text-center p {
+           font-size: 1rem !important;}
+.icon-siz {
+           font-size: 2rem !important;}
+.seeallBtnH2-div h2 {
+         text-align: center !important;
+         font-size: 1.5rem !important;}
+.seeallBtnH2-div{
+      flex-direction: column;}
+.six-img {
+        text-align: center !important;}
+ .ViewAllOffersBtnH2-div h2{
+       font-size: 1.5rem !important;
+         text-align: center;}
+ .ViewAllOffersBtnH2-div{
+       flex-direction: column;}
+.wrong {
+       margin-right: 1.5rem;}
+.background2 {
+   text-align: center !important;}
+.gallery-img{
+       padding: 1rem !important;
+border-radius: 1.7rem !important;}
+.footer-div h2 {
+   font-size: 1rem !important;}
+.phone-icon{
+   font-size: 1.5rem !important;}
+.reviewer-img{
+   width: 30% !important;
+       height: 30% !important ;
+       border-radius: 50% !important;}
+.row-div {
+text-align: center;}
+.row-div .d-flex {
+   flex-direction: column !important;
+          align-items: center !important;
+       text-align: center;}
+.row-div .d-flex i {
+         margin-right: 0 !important;
+        margin-bottom: 10px;}
+ }
+/* -------------------------------------------- */
+ @media (min-width: 991.99px) and (max-width:1210px ){
+ .nav-icon{
+    display: none;}
+.header-text h1 {font-size: 3.5rem !important;
+        line-height: 5rem !important;}
+.btn-nav{      margin-left: 3rem !important; }
+.section3{    padding: 5rem !important;  }
 }
 
 
