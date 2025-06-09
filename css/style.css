@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -19,7 +20,7 @@ header {
 
 .navbar-brand {
   width: 17%;
- 
+
 }
 
 .nav-logo {
@@ -50,10 +51,10 @@ header {
   font-family: var(--second-font);
 }
 
-.header-text {
+/* .header-text {
   padding-bottom: 2rem;
 
-}
+} */
 
 .x:hover {
   background-color: var(--fr-color) !important;
@@ -76,9 +77,7 @@ header {
   color: var(--second-color);
 }
 
-.mapdiv {
-  height: 70vh;
-}
+
 
 .title {
   font-family: var(--first-font)
@@ -98,12 +97,9 @@ header {
   color: var(--p-color);
 }
 
-.background {
-  margin-top: 10rem;
-}
+
 
 .text-center h2 {
-  font-size: 3rem;
   letter-spacing: 1px;
   font-family: var(--first-font);
 }
@@ -141,9 +137,7 @@ header {
   color: black;
 }
 
-.h2-title {
-  font-family: var(--first-font);
-}
+
 
 .background1 {
   background-color: #f9f9f9;
@@ -154,9 +148,7 @@ header {
   letter-spacing: 1px;
   font-size: 3rem;
 }
-.gallery-img{
-  width: 95%;
-}
+
 
 footer {
   background-image: url(../images/footer-bg.jpg);
@@ -189,9 +181,7 @@ footer {
   font-family: var(--first-font);
 }
 
-.background2 {
-  height: 60vh;
-}
+
 
 .middle:hover {
   color: var(--fr-color);
@@ -213,6 +203,7 @@ footer {
   font-family: var(--second-font);
   color: var(--p-color);
 }
+
 .background3 {
   background-color: rgb(255, 253, 253);
 }
@@ -220,6 +211,7 @@ footer {
 .row-div {
   width: 80%;
 }
+
 .reviewer-img {
   width: 16% !important;
   height: 16% !important;
@@ -227,13 +219,15 @@ footer {
 }
 
 .seeallBtnH2-div {
-display: flex;  
-justify-content: space-between;
-}
-.ViewAllOffersBtnH2-div{
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
+
+.ViewAllOffersBtnH2-div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .titlee {
   text-transform: uppercase;
   font-family: var(--second-font);
@@ -248,6 +242,11 @@ justify-content: space-between;
   width: 18%;
   position: relative;
 }
+
 .color-icon:hover {
   color: #ffffff;
 }
+body {
+  overflow-x: hidden;
+}
+

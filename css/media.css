@@ -2,153 +2,276 @@
 /* ========== التابلت (768px - 991.98px) ========== */
 @media (min-width: 768px) and (max-width: 991.98px) {
    .header-text h1 {
-           font-size:4.2rem !important ;
-             line-height: 4.2rem !important;    }
-header  {
-              height: 90vh !important ;}
-.swimmingpool-img   {
-               width: 65% !important;
-                margin: auto !important;}
-.text-center h2 {
-              font-size:2.4rem !important ;}
-.text-center p {
+      font-size: 4.2rem !important;
+      line-height: 4.2rem !important;
+   }
 
-              font-size: 1.3rem !important;}
-html{
-             font-size: 14px !important;  }
-.header-text {
-                    margin-top: 3rem;}
-.swimmingpool-img-div{
-            text-align: center !important;}
-.title2{
-         text-align: center ;}
-.getDirection-btn {
-             text-align: center !important;}
-.six-img{
-       text-align: center !important; }
- .wrong{
-         margin-left: 1.2rem;}
-.gallery-img{
-         width: 87% !important;
-       margin-left:3rem !important ;}
-.footer-div{
-            text-align: center !important;
-            margin-top:4rem !important ;}
-.footer-div h2 {
-font-size:1.5rem !important ;}
-.background2{
-   text-align: center !important;}
-.navbar-brand {
-        width: 30% !important;}
-.mapdiv {
-           padding: 3rem !important;}
-.reviewer-img {
-         width: 18% !important;
-           height: 18% !important;
-           border-radius: 50% !important;}
-.phone-icon{
-            font-size: 1.9rem !important ;}
-.row-div {
-             text-align: center;}
-.row-div .d-flex {
-            flex-direction: column !important;
-             align-items: center !important;
-              text-align: center;}
-.row-div .d-flex i {
-            margin-right: 0 !important;
-              margin-bottom: 10px;}
+   header {
+      height: 90vh !important;
+   }
+
+   .swimmingpool-img {
+      width: 65% !important;
+      margin: auto !important;
+   }
+
+   .text-center h2 {
+      font-size: 2.4rem !important;
+   }
+
+   .text-center p {
+
+      font-size: 1.3rem !important;
+   }
+
+   html {
+      font-size: 14px !important;
+   }
+
+   .header-text {
+      margin-top: 3rem;
+   }
+
+   .swimmingpool-img-div {
+      text-align: center !important;
+   }
+
+   .title2 {
+      text-align: center;
+   }
+
+   .getDirection-btn {
+      text-align: center !important;
+   }
+
+   .six-img {
+      text-align: center !important;
+   }
+   .big-img {
+         margin-left: 3.5rem !important;    }
+   .wrong {
+      margin-left: 1.2rem;
+   }
+
+   .gallery-img {
+      width: 85% !important;
+   }
+
+   .footer-div {
+      text-align: center !important;
+      margin-top: 4rem !important;
+   }
+
+   .footer-div h2 {
+      font-size: 1.5rem !important;
+   }
+
+   .background2 {
+      text-align: center !important;
+   }
+
+   .navbar-brand {
+      width: 30% !important;
+   }
+
+   .mapdiv {
+      padding: 3rem !important;
+   }
+
+   .reviewer-img {
+      width: 18% !important;
+      height: 18% !important;
+      border-radius: 50% !important;
+   }
+
+   .phone-icon {
+      font-size: 1.9rem !important;
+   }
+
+   .row-div {
+      text-align: center;
+   }
+
+   .row-div .d-flex {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center;
+   }
+
+   .row-div .d-flex i {
+      margin-right: 0 !important;
+      margin-bottom: 10px;
+   }
 }
+
 /* ========== شاشات الهواتف (أقل من 768px) ========== */
- @media (max-width: 767.98px) {
-.header-text{
-    height: 80%!important;}
-.header-text h1{
-   padding-right: 4rem !important;
-     font-size: 2.2rem !important;
-      line-height: 2.5rem !important;}
-.header-text p{
-     font-size:1.4rem !important;
-       line-height: 1.5rem !important;
-     
+@media (max-width: 767.98px) {
+   .header-text {
+      height: 80% !important;
+   }
+
+   .header-text h1 {
+      padding-right: 4rem !important;
+      font-size: 2.2rem !important;
+      line-height: 2.5rem !important;
+   }
+
+   .header-text p {
+      font-size: 1.4rem !important;
+      line-height: 1.5rem !important;
+
       padding-right: 5rem;
-           margin-bottom:2rem !important ;}
-.CheckAvailability-btn{
-       padding-inline: 1rem !important; 
-        padding-block: 0.3rem !important; 
-    }
-.navbar-brand{
-   width: 35% !important;}
-.swimmingpool-img {
-        width: 80% !important;}
-.swimmingpool-img-div {
-           text-align: center !important;}
-.swimmingpool-img-div p  {
-padding-inline: 2.5rem;
+      margin-bottom: 2rem !important;
+   }
 
-font-size: 1.2rem !important;
- }          
-.title2 {
-        text-align: center;}
-.getDirection-btn {
-          text-align: center !important;}
-.btndiv{
-           margin-top: 20px !important; 
-           text-align: center !important;}
-.mapdiv{
-          padding: 3rem  !important;}
-.text-center h2 {
-         font-size: 2.4rem !important;}
-.text-center p {
-           font-size: 1rem !important;}
+   .CheckAvailability-btn {
+      padding-inline: 1rem !important;
+      padding-block: 0.3rem !important;
+   }
 
-.seeallBtnH2-div h2 {
-         text-align: center !important;
-         font-size: 1.5rem !important;}
-.seeallBtnH2-div{
-      flex-direction: column;}
-.six-img {
-        text-align: center !important;}
- .ViewAllOffersBtnH2-div h2{
-       font-size: 1.5rem !important;
-         text-align: center;}
- .ViewAllOffersBtnH2-div{
-       flex-direction: column;}
-.wrong {
-       margin-right: 1.5rem;}
-.background2 {
-   text-align: center !important;}
-.gallery-img{
-       padding: 1rem !important;
-border-radius: 1.7rem !important;}
-.footer-div h2 {
-   font-size: 1rem !important;}
-.phone-icon{
-   font-size: 1.5rem !important;}
-.reviewer-img{
-   width: 30% !important;
-       height: 30% !important ;
-       border-radius: 50% !important;}
-.row-div {
-text-align: center;}
-.row-div .d-flex {
-   flex-direction: column !important;
-          align-items: center !important;
-       text-align: center;}
-.row-div .d-flex i {
-         margin-right: 0 !important;
-        margin-bottom: 10px;}
-  .br{
-   display: none !important;
-  }      
- }
+   .navbar-brand {
+      width: 35% !important;
+   }
+
+   .swimmingpool-img {
+      width: 100% !important;
+   }
+
+   .swimmingpool-img-div {
+      text-align: center !important;
+      padding-inline: 4.5rem !important;
+   }
+
+   .swimmingpool-img-div p {
+      font-size: 1rem !important;
+   }
+
+   .title2 {
+      text-align: center;
+   flex-direction: column ;
+   }
+      .title2 button{
+
+padding-block: 0.2rem !important;}
+
+.gallery-img {
+   width: 85% !important;
+}
+.big-img{
+ margin-left: 2.6rem !important;  
+}
+
+   .getDirection-btn {
+      text-align: center !important;
+   }
+
+   .btndiv {
+      margin-top: 20px !important;
+      text-align: center !important;
+   }
+
+   .mapdiv {
+      padding: 3rem !important;
+   }
+
+   .text-center h2 {
+      font-size: 2.4rem !important;
+   }
+
+   .text-center p {
+      font-size: 1rem !important;
+   }
+
+   .seeallBtnH2-div h2 {
+      text-align: center !important;
+      font-size: 1.5rem !important;
+   }
+
+   .seeallBtnH2-div {
+      flex-direction: column;
+   }
+
+   .six-img {
+      text-align: center !important;
+   }
+
+   .ViewAllOffersBtnH2-div h2 {
+      font-size: 1.5rem !important;
+      text-align: center;
+   }
+
+   .ViewAllOffersBtnH2-div {
+      flex-direction: column;
+      padding-inline: 1rem !important;
+   }
+
+   .wrong {
+      margin-right: 1.5rem;
+   }
+
+   .background2 {
+      text-align: center !important;
+   }
+
+
+   .footer-div h2 {
+      font-size: 1rem !important;
+   }
+
+   .phone-icon {
+      font-size: 1.5rem !important;
+   }
+
+   .reviewer-img {
+      width: 30% !important;
+      height: 30% !important;
+      border-radius: 50% !important;
+   }
+
+   .row-div {
+      text-align: center;
+   }
+
+   .row-div .d-flex {
+      flex-direction: column !important;
+      align-items: center !important;
+      text-align: center;
+   }
+
+   .row-div .d-flex i {
+      margin-right: 0 !important;
+      margin-bottom: 10px;
+   }
+
+   .br {
+      display: none !important;
+   }
+      .section3 {
+    text-align: center; 
+      }
+.btn-b{
+padding: 0.2rem !important;
+}
+}
+
 /* -------------------------------------------- */
- @media (min-width: 991.99px) and (max-width:1210px ){
- .nav-icon{
-    display: none;}
-.header-text h1 {font-size: 3.5rem !important;
-        line-height: 5rem !important;}
-.btn-nav{      margin-left: 3rem !important; }
-.section3{    padding: 5rem !important;  }
+@media (min-width: 991.99px) and (max-width:1210px) {
+   .nav-icon {
+      display: none;
+   }
+
+   .header-text h1 {
+      font-size: 3.5rem !important;
+      line-height: 5rem !important;
+   }
+
+   .btn-nav {
+      margin-left: 3rem !important;
+   }
+
+   .section3 {
+      padding: 5rem !important;
+   }
 }
 
 
