@@ -204,7 +204,6 @@ padding-block: 0.2rem !important;}
       flex-direction: column;
       padding-inline: 1rem !important;
    }
-
    .wrong {
       margin-right: 1.5rem;
    }
@@ -251,6 +250,8 @@ padding-block: 0.2rem !important;}
       }
 .btn-b{
 padding: 0.2rem !important;
+width: 30% !important;
+margin: auto;
 }
 }
 
